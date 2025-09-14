@@ -26,7 +26,7 @@ class App extends Component {
     
     login() {
         const { email, senha } = this.state;
-        
+        // Usuário e senha para teste
         if (email === "samuel.feo@pucpr.edu.br" && senha === "123456") {
             this.setState({retorno: "Acessado com sucesso!"})
         } else {
