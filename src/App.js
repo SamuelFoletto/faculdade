@@ -40,13 +40,7 @@ class App extends Component {
     render() {
         return(
             <div className="estilo">
-                <h1>Login</h1>
-                <div className="estilo">
-                    <input type="email"  name="email" placeholder="Email" value={this.state.email} onChange={this.setEmail} />
-                    <input type="password" size="20" name="Senha" placeholder="Senha" value={this.state.senha} onChange={this.setSenha} />
-                    <button onClick={this.login}>Acessar</button>
-                </div>
-                <label >{this.state.retorno}</label>
+
             </div>
         )
     }
